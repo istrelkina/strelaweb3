@@ -1,0 +1,258 @@
+@media(max-width: 1400px){
+   .item-project{
+      //margin-bottom: 30px;
+   }
+}
+@media(max-width: 1340px){
+   .header__info {
+      margin-top: 100px;
+   }
+   .advantages-item{
+      flex: 1 0 50%;
+      margin: 40px;
+   }
+   .advantages__items{
+      justify-content: center;
+      .item-adv-image{
+         margin: 40px;
+      }
+   }
+}
+@media(max-width: 1300px){
+   .header-image{
+      width: 100%;
+      max-width: 600px;
+      img{
+         width: 100%;
+      }
+   }
+   .header__info h1 {
+      font-size: 50px;
+   }
+   .header__info .header-text p {
+      font-size: 20px;
+   }
+   .project-form-wrapper::before {
+      left: 490px;
+   }
+   .item-project-text {
+      padding: 0 20px 0 20px;
+  }
+}
+@media(max-width: 1200px){
+   .project-form-wrapper::before {
+      background-image: none;
+  }
+
+}
+@media(max-width: 1100px){
+   .advantages-item{
+      padding: 25px;
+   }
+}
+
+@media(max-width: 1000px){
+   .header__top {
+      padding-top: 40px;
+      display: block;
+   }
+   .header__info {
+      display: block;
+   }
+   .header-projects{
+      margin: 30px;
+   }
+   .advantages-subtitle {
+      margin-bottom: 40px;
+  }
+  .howitworks-row-right .howitworks__text {
+      margin-left: 430px;
+   }
+   .howitworks-row-left .howitworks__text {
+      margin-right: 450px;
+  }
+  .howitworks__text {
+      width: 350px;
+   }
+   .howitworks {
+      background-position: 50% 61%;
+  }
+}
+@media(max-width: 900px){
+   .header__info {
+      margin-top: 30px;
+  }
+  .header-contacts{
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     width: 100%;
+  }
+  .header-contacts .top-contacts{
+     margin: 0;
+  }
+  h2{
+     font-size: 30px;
+  }
+  .project-form-box{
+     margin: 0;
+  }
+  .project-form-title{
+     width: auto;
+  }
+  .project-form-wrapper{
+     flex-wrap: wrap;
+     padding: 50px;
+  }
+  .item-project{
+     display: block;
+     text-align: center;
+  }
+  .item-project-image{
+     width: 100%;
+  }
+  .item-project-text{
+     width: 100%;
+     margin-bottom: 50px;
+  }
+  .item-project-text p {
+      max-width: 100%;
+   }
+   .project-form-wrapper{
+      height: 100%;
+   }
+   .project-form::before{
+      height: 210px;
+   }
+   .project-form::after{
+      height: 211px;
+   }
+}
+@media(max-width: 780px){
+   .header-contacts .top-contacts{
+      flex: 1 0 50%;
+      margin-bottom: 30px;
+   }
+   .header__info h1 {
+      font-size: 40px;
+      line-height: 120%;
+  }
+  .header__info .header-text p {
+      font-size: 18px;
+   }
+   .projects-title {
+      margin-bottom: 40px;
+  }
+  .projects {
+      padding: 90px 0 30px 0;
+   }
+   .project-form::before{
+      height: 250px;
+   }
+   .project-form::after{
+      height: 250px;
+   }
+   .howitworks{
+      background: none;
+   }
+   .howitworks-row{
+      display: block;
+      margin-bottom: 40px;
+   }
+   .howitworks-row-left .howitworks__text {
+      margin-left: 90px;
+      margin-right: 15px;
+  }
+  .howitworks-row-right .howitworks__text {
+      margin-left: 90px;
+      margin-right: 15px;
+   }
+   .howitworks__text {
+      width: 85%;
+  }
+  .howitworks__text{
+     position: relative;
+     &::before{
+        position: absolute;
+        content: "";
+        background-repeat: no-repeat;
+        top: 0;
+        left: -90px;
+        width: 80px;
+        height: 80px;
+     }
+  }
+  .howitworks__text-1::before{
+      background-image: url('../images/how-image-circle1.png');
+   }
+   .howitworks__text-2::before{
+      background-image: url('../images/how-image-circle2.png');
+   }
+   .howitworks__text-3::before{
+      background-image: url('../images/how-image-circle3.png');
+   }
+   .howitworks__text-4::before{
+      background-image: url('../images/how-image-circle4.png');
+   }
+
+}
+@media(max-width: 540px){
+   .header-brif{
+      margin: 30px  0 0 0;
+   }
+   .advantages-item {
+      flex: 1 0 100%;
+      margin: 0 0 30px 0;
+  }
+}
+@media(max-width: 490px){
+   .header-contacts .top-contacts {
+      flex: 1 0 100%;
+   }
+   .advantages__items .item-adv-image{
+      width: 100%;
+   }
+   .advantages {
+      padding: 50px 0;
+  }
+  .project-form-socials .form-contacts {
+      margin-right: 10px;
+   }
+   .project-form::before{
+      height: 300px;
+   }
+   .project-form::after{
+      height: 300px;
+   }
+   .howitworks__text {
+      width: 79%;
+  }
+  .howitworks {
+      padding: 70px 0;
+   }
+@media(max-width: 440px){
+   .project-form-box .form-project-link {
+      padding: 15px 45ииpx;
+  }
+  .howitworks__text {
+      width: 70%;
+   }
+}
+@media(max-width: 390px){
+   h2{
+      font-size: 26px;
+   }
+   h3{
+      font-size: 22px;
+   }
+   .project-form-wrapper {
+      padding: 25px;
+  }
+  .project-form-socials .form-contacts {
+      margin-right: 15px;
+      width: 38px;
+   }
+  .advantages {
+      padding: 40px 0;
+   }
+}
